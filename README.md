@@ -3,9 +3,9 @@ I am Jiunyu Chen an anthusiastic UI/UX designer focused on user experience, web 
 I'm currently looking for work! Feel free to contact me at jiunyu.c@gmail.com
 
 <hr>
-<h1>Sit Map</h1>
-1.UI-UX Design Research Porject
-2.JavaScript Project
-3.Multimedia Project
-4.Photography
+<h3>Sit Map</h3>
+1.UI-UX Design Research Porject <br>
+2.JavaScript Project <br>
+3.Multimedia Project <br>
+4.Photography <br>
 
