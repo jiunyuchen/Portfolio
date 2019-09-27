@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <title>Jiunyu Chen</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/slideshow.css" />
+    <style>
+      .mySlides {
+        display: none;
+      }
+
+    </style>
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+      <!-- Intro -->
+      <div id="intro">
+        <h1>Hello! <br>I'm <span style="color:#18bfef ;font-weight:bold">Jiunyu Chen</span></h1>
+        <h2>a Enthusiastic Designer<br>
+          creates aesthetic and functional products</h2>
+
+        <ul class="actions">
+          <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+      </div>
+
+      <!-- Header -->
+      <header id="header">
+        <a href="index.html" class="logo">Jiunyu Chen</a>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li class="active"><a href="index.html">UI-UX Design</a></li>
+          <li><a href="javascript.html">Javascript</a></li>
+          <li><a href="multimedia.html">Multimedia</a></li>
+          <li><a href="photography.html">Photography</a></li>
+        </ul>
+        <ul class="icons">
+          <li><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/jiunyu-chen-2b5076152" class="icon fa-linkedin "><span class="label">linkdin</span></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jiunyuchen" class="icon fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <section class="post">
+          <header class="major">
+            <h1>HUMAN-WILDLIFE<br />
+              INTERACTIONS RESEARCH</h1>
+            <p>A mobile-based app for researchers to digitally collect Human-wildlife research data from hikers <br>
+              who are enjoying the informative functions of the application in return for participating in the study.</p>
+            <p>The final solution fruitfully achieves the research aim, supplying an important contribution to human-wildlife academic research, 
+				the easy to use interface allows it to be adapted for further study outside Scotland.</p>
+            <div class="image main"><img src="images/UI-UX banner.png" alt="" /></div>
+          </header>
+
+          <!-- Text stuff -->
+          <h2>Introduction</h2>
+          <p>The purpose of this research project is to investigate the effects of hikers on wildlife and their
+            displacement in the North Chest-Hill Estate in Northern Scotland. Our team was working with Dr Long
+            and his researcher group in Sustainable development department, University of St Andrews.</p>
+          <p></p>The original data-collection method of this research was taken using hand-written survey cards,
+          however this had issues as hand-written survey cards are time-consuming and impacted by weather.
+          Digitisation of physical records requires a high cost, the recorded data is often inaccurate, invalid and
+          not consistent in structure and format, additionally it is not possibility to gather photo or video data. Our task was to develop a fast, easy, simple and instantaneous data-collection user-centre interaction
+          solution for this research.</p>
+          <hr />
+
+          <h2>Methodology</h2>
+          The application development methodology flow chart was the systematic process the group followed
+          when creating the prototype. We established this at the start of the project to ensure there was a clear
+          structure and we could set deadlines for this as time was limited for the project.
+
+          <div class="image main"><img src="images/lifecycle.png" alt="The Application development methodology flow chart" /></div>
+          <p class="aligncenter">The Application development methodology flow chart</p>
+          <br>
+          <hr />
+          <h2>Analysis</h2>
+          <ul>
+            <li>Contextual inquire: User research, interview, and survey</li>
+            <li>Compartmentalising contextual inquiry data</li>
+            <li>List Requirements: ‘must have’ and ‘nice to have’ requirement lists</li>
+            <li>Constructing design-informing models: Flow model Diagram</li>
+          </ul>
+          <div class="box">
+            <div class="w3-content w3-display-container">
+              <img class="mySlides" src="images/Storyboard.png" style="width:100%">
+              <img class="mySlides" src="images/Prototyping Detail Sketches & Palette.png" style="width:100%">
+              <img class="mySlides" src="images/Solution Sketch and Paper Prototype.png" style="width:100%">
+
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {
+                  slideIndex = 1
+                }
+                if (n < 1) {
+                  slideIndex = x.length
+                }
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";
+                }
+                x[slideIndex - 1].style.display = "block";
+              }
+
+            </script>
+          </div>
+          <br>
+          <hr />
+
+          <h2>Prototype</h2>
+          <p>The final stage of the process was to use the designs to create a final prototype solution with basic
+            citizen science functions and extra beneficial functions for hikers. The solution developed by our team
+            meets all of Dr Long’s requirements and satisfies the most important expectation: fast, easy, simple and
+            instantaneous.</p>
+          <h3>Basic citizen science functions</h3>
+          <p>The citizen science functions have three main components (1) First-time set up process (2) Requiring
+            ‘Hiking sessions’ (3) The interaction recording process.</p>
+          <h4>(1) First-time set-up process</h4>
+          <div class="image main"><img src="images/basic_function1.png" alt="basic_function" /></div>
+          <h4>(2) Requiring ‘hiking sessions’</h4>
+          <div class="image main"><img src="images/basic_function2.png" alt="basic_function" /></div>
+          <h4>(3) The interaction recording process</h4>
+          <div class="image main"><img src="images/basic_function3.png" alt="basic_function" /></div>
+          <h3>Extra beneficial functions</h3>
+          <p>In the basic citizen science functions, hikers would likely only use the app because they were recruited
+            to participate and contribute to a citizen science project. Yet these extra beneficial functions offer the
+            hikers some personal benefits in exchange for their participation and contribution to the citizen science.</p>
+          <h4>(1) Planning trips and downloading maps</h4>
+          <div class="image main"><img src="images/extra_function1.png" alt="basic_function" /></div>
+          <h4>(2) Review previous hiking statistic and recordings</h4>
+          <div class="image main"><img src="images/extra_function2.png" alt="basic_function" /></div>
+
+
+          <hr />
+          <h2>Conclusion</h2>
+          <p>
+            Both solution work well to efficiently ameliorate issues experience by Dr Long’s study’s manual data collection and data entry processes. The creative solution goes on step further and aim to help recruit participants in the study as well. Now both solutions have been implemented and under analysis process. This app would be used for all hikers across Scotland and the UK as whole, not merely just for research being conducted within the North Chest-Hill Estate. It could drastically alter how human-wildlife interactions are studied and explored in the future.
+          </p>
+          <a href="#top">Back to top &uArr; </a>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <form method="post" action="mailto:jiunyu.c@gmail.com">
+            <div class="fields">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="3"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="Send Message" /></li>
+            </ul>
+          </form>
+        </section>
+        <section class="split contact">
+          <section class="alt">
+            <h3>Country</h3>
+            <p>The UK, The Netherlands and Taiwan
+          </section>
+          <section>
+            <h3>Phone</h3>
+            <p><a href="#">(44) 7596050419</a></p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <p><a href="mailto:jiunyu.c@gmail.com">jiunyu.c@gmail.com</a></p>
+          </section>
+          <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              <li><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/jiunyu-chen-2b5076152" class="icon fa-linkedin"><span class="label">linkdin</span></a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jiunyuchen" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+              <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+
+      <!-- Copyright -->
+      <div id="copyright">
+        <ul>
+          <li>&copy; Untitled</li>
+          <li>Design: <a href="#">Jiunyu Chen</a></li>
+        </ul>
+      </div>
+
+
+
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  </body>
+
+</html>
