@@ -174,17 +174,58 @@
             }
 
           </script>
-          <br>
-          <br>
-          <hr/>
-          <h1>Wedding Leaflet Design</h1>
-          <div class="image main"><img src="images/wedding1.jpg" alt="" /></div>
-          <div class="image main"><img src="images/wedding2.jpg" alt="" /></div>
-          <hr/>
-          <h1>Concert Leaflet and Poster Design</h1>
-          <div><img src="images/concert1.jpg" alt="" /></div>
-          <div><img src="images/concer2.jpg" alt="" /></div>
-          <div><img src="images/concer3.jpg" alt="" /></div>                      
+          
+            <div class="gallery-section">
+            <div class="inner-width">
+              <div class="gallery">
+                <a href="images/wedding1.jpg" class="image">
+                  <img src="images/wedding1.jpg" alt="">
+                </a>
+                <br>
+
+                <a href="images/wedding2.JPG" class="image">
+                  <img src="images/wedding2.JPG" alt="">
+                </a>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-section">
+            <div class="inner-width">
+              <div class="gallery">
+
+                <a href="images/concert1.JPG" class="image">
+                  <img src="images/concert1.JPG" alt="">
+                </a>
+
+                <a href="images/concert2.JPG" class="image">
+                  <img src="images/concert2.JPG" alt="">
+                </a>
+
+                <a href="images/concert3.JPG" class="image">
+                  <img src="images/concert3.JPG" alt="">
+                </a>
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <script>
+            $(".gallery").magnificPopup({
+              delegate: 'a',
+              type: 'image',
+              gallery: {
+                enabled: true
+              }
+            });
+
+          </script>
+          
+          
           <a href="#top">Back to top &uArr; </a>
         </section>
       </div>
