@@ -31,6 +31,10 @@ body {
 	line-height: 1;
 }
 
+.aligncenter {
+    text-align:center;
+}
+
 ol, ul {
 	list-style: none;
 }
