@@ -3,7 +3,7 @@ I am Jiunyu Chen an anthusiastic UI/UX designer focused on user experience, web 
 
 I'm currently looking for work! Feel free to contact me at jiunyu.c@gmail.com
 
-##Sit Map
+## Sit Map
 - UI-UX Design Research Porjects 
 - JavaScript Projects
 - Multimedia Projects
